@@ -1,0 +1,17 @@
+{
+  "name": "git-sync",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Minimal Node.js boilerplate with Git synchronization.",
+  "type": "module",
+  "scripts": {
+    "git": "node scripts/git-sync.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "isomorphic-git": "^1.38.4"
+  }
+}
